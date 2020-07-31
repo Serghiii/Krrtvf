@@ -1,0 +1,9 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <dimen name="frame_padding_vertical">6dp</dimen>
+    <dimen name="frame_padding_horizontal">6dp</dimen>
+    <dimen name="textview_padding_top">6dp</dimen>
+    <dimen name="paragraph_padding_top">6dp</dimen>
+    <dimen name="design_bottom_navigation_text_size" tools:override="true">12sp</dimen>
+    <dimen name="design_bottom_navigation_active_text_size" tools:override="true">12sp</dimen>
+    <dimen name="design_table_layout_text_size" tools:override="true">14sp</dimen>
+</resources>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:scrollbars="none"
+    android:paddingLeft="@dimen/frame_padding_horizontal"
+    android:paddingRight="@dimen/frame_padding_horizontal"
+    tools:context=".ConcernAboutFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="@dimen/frame_padding_vertical"
+        android:paddingBottom="@dimen/frame_padding_vertical"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+            <ImageView
+                android:id="@+id/img_earth"
+                android:contentDescription="@string/earth"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:paddingLeft="55dp"
+                android:paddingRight="55dp"
+                android:src="@drawable/img_earth" />
+            <ImageView
+                android:id="@+id/img_rrt"
+                android:contentDescription="@string/rrt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/img_rrt" />
+        </RelativeLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="Регулярна трансляція телевізійного сигналу на Волині розпочалась в березні 1959 року з ретранслятора встановленого на сторожовій вежі замку Любарта ( XV століття) в місті Луцьку."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/paragraph_padding_top"
+            android:justificationMode="inter_word"
+            android:text="В 1972 році було закінчено будівництво нового технічного приміщення та щогли висотою 240 метрів в місті Ковелі і 1 березня 1972 року державна комісія прийняла в експлуатацію цей об'єкт. РТС в Ковелі стала центром телевізійного мовлення на Волині."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/paragraph_padding_top"
+            android:justificationMode="inter_word"
+            android:text="На той час транслювалась лише одна телевізійна програма на 5-му ТВ каналі передавачем «Якір» та дві радіопрограми в діапазоні УКХ-ЧМ радіостанцією «Дождь-2»."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/paragraph_padding_top"
+            android:justificationMode="inter_word"
+            android:text="Сьогодні інфраструктура Волинської філії Концерну РРТ складається із 12 радіотехнічних об’єктів з висотними антенно-щогловими спорудами висотою від 50 до 240 метрів. З 5 радіотелевізійних станцій філії ведеться мовлення багатопрограмних мультиплексів МХ-1, МХ-2, МХ-3, МХ-5 в цифровому форматі DVB-T2. Забезпечення області програмами радіо здійснюється за допомогою 15 радіомовних передавачів. Загальна довжина РРЛ підприємства сягає понад 300 кілометрів."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/paragraph_padding_top"
+            android:justificationMode="inter_word"
+            android:text="Технічними перевагами наших станцій, що забезпечують безперебійну і якісну роботу телекомунікаційного обладнання є гарантоване електропостачання, наявність ефективних антенно-фідерних систем та високошвидкісних ліній зв’язку, належне метрологічне забезпечення, висококваліфікований персонал з цілодобовим чергуванням."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/paragraph_padding_top"
+            android:justificationMode="inter_word"
+            android:text="Волинська філія Концерну РРТ є провідним телекомунікаційним оператором на обласному ринку послуг телерадіомовлення, безперебійно і якісно транслює 32 телевізійні програми та 10 радіопрограм, забезпечує передачу інформації по власних радіорелейних лініях. Послугами підприємства користуються державні та приватні телерадіокомпанії, служби органів державного управління, оператори стільникового зв'язку та ВОЛЗ, інтернет-провайдери та інші підприємства галузі, що забезпечує їм динамічний розвиток бізнесу."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/paragraph_padding_top"
+            android:justificationMode="inter_word"
+            android:text="Волинська філія Концерну запрошує до співпраці підприємства усіх форм власності для організації взаємовигідного бізнесу в сфері зв’язку та телерадіомовлення."/>
+
+    </LinearLayout>
+
+</ScrollView>

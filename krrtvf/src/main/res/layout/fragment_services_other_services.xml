@@ -1,0 +1,536 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/frame_padding_horizontal"
+    android:paddingRight="@dimen/frame_padding_horizontal"
+    android:scrollbars="none"
+    tools:context=".ServicesOtherServicesFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/frame_padding_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Пропонуємо обслуговування телекомунікаційного обладнання та антенно-фідерних пристроїв (АФП):"/>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:paddingTop="@dimen/paragraph_padding_top"
+                android:drawableStart="@drawable/ic_circle_solid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Електропостачання"
+                android:drawablePadding="0dp"
+                android:textStyle="bold"
+                android:paddingTop="@dimen/paragraph_padding_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Вимірювання опору контуру заземлення"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Вимірювання опору ізоляції, петлі «фаза – нуль»"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Роботи з обслуговування блискавкозахисту, його покращення або заміни"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Роботи по приведенню до норми опору контуру заземлення (блискавкозахисту)"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Випробовування діелектричних засобів захисту в електроустановках до 10 кВ"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Встановлення та ремонт світлоогородження висотних споруд (СОЩ)"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:paddingTop="@dimen/paragraph_padding_top"
+                android:drawableStart="@drawable/ic_circle_solid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Обслуговування антенно-фідерних пристроїв (АФП) "
+                android:drawablePadding="0dp"
+                android:textStyle="bold"
+                android:paddingTop="@dimen/paragraph_padding_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Монтаж і демонтаж антен BTS, РРЛ, Wi-Fi, FM і ТВ мовленя"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Юстування антен, зміна кута нахилу секторних антен"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Встановлення і демонтаж діплексорів, бустерів"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Виготовлення, монтаж і демонтаж трубостійок GSM, Wi-Fi і РРЛ антен"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Перевірка прямої видимості для запланованого лінка"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Прокладання або демонтаж RF та UTP/FTP кабелів"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Встановлення захисту від зледеніння для АФП"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Вимірювання вертикальності щогли/вежі"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:paddingTop="@dimen/paragraph_padding_top"
+                android:drawableStart="@drawable/ic_circle_solid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Виміри параметрів АФП"
+                android:drawablePadding="0dp"
+                android:textStyle="bold"
+                android:paddingTop="@dimen/paragraph_padding_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Перевірка узгодження антен всіх типів (прилад Rohde&amp;Schwarz ZVH4)"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Тестування антенних підсилювачів (TMA)"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Перевірка кабелів на пошкодження і розриви"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Розрахунок втрат і визначення вихідної потужності BTS"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Діагностика цілісності з’єднань"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:paddingTop="@dimen/paragraph_padding_top"
+                android:drawableStart="@drawable/ic_circle_solid"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Будівельні роботи"
+                android:drawablePadding="0dp"
+                android:textStyle="bold"
+                android:paddingTop="@dimen/paragraph_padding_top"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Вирівнювання-бетонування майданчика BTS"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Встановлення, переміщення контейнеру"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Внутрішнє фарбування контейнеру, ремонт підлоги, заміна лінолеуму"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Ремонт технічного фундаменту контейнера"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Встановлення зовнішнього захисту контейнера від зледеніння"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Демонтаж огорожі, встановлення огорожі, секцій огорожі"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Покрівельні роботи, відновлення гідроізолюючого покриття даху"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:paddingLeft="16dp"
+                android:drawablePadding="0dp"
+                android:drawableStart="@drawable/ic_circle_regular"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:text="Виконання бітумної гідроізоляції анкерних фундаментів, фундаментів щогли"
+                android:drawablePadding="0dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+</ScrollView>

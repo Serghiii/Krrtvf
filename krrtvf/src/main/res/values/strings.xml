@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">КРРТ ВФ</string>
+    <string name="app_title">КРРТ Волинська філія</string>
+    <string name="title_home">Головна</string>
+    <string name="title_concern">Концерн</string>
+    <string name="title_services">Послуги</string>
+    <string name="title_partners">Партнери</string>
+    <string name="title_press_center">Прес-центр</string>
+    <string name="text_open_tariffs"><u>Відкрити тарифи</u></string>
+    <string name="text_open_graph"><u>Відкрити графік</u></string>
+    <string name="earth">earth</string>
+    <string name="rrt">rrt</string>
+    <string name="wait">Очікуємо...</string>
+    <string name="news_json_url">http://rrt-volyn.com.ua/news/get_json</string>
+    <string name="video_url">http://rrt-volyn.com.ua/cards/video/%d/%s</string>
+    <string name="photo_url">http://rrt-volyn.com.ua/cards/photo/%d/%s</string>
+    <string name="gallery_url">http://rrt-volyn.com.ua/cards/photo/%d/image/%s</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/frame_padding_horizontal"
+    android:paddingRight="@dimen/frame_padding_horizontal"
+    android:scrollbars="none"
+    tools:context=".ServicesTVbroadcastingFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/frame_padding_vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="Мало хто може собі уявити сучасне життя без телебачення. Воно допомагає нам розважатись, отримувати інформацію, навчатись та просто добре проводити час в сімейному колі. Саме розповсюдження програм телебачення ефірним методом мешканцям Волині – це головний напрямок нашої діяльності і те, задля чого створювалося підприємство." />
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:paddingTop="@dimen/paragraph_padding_top"
+            android:text="В 2011 році Концерн РРТ в партнерстві із ТОВ «Зеонбуд» реалізував проект будівництва цифрової мережі в складі чотирьох мультиплексів МХ-1, МХ-2, МХ-3, МХ-5. Відповідно до рішень Національної ради України з питань телебачення та радіомовлення від 08.12.2010 року №№ 1724 – 1727, провайдером та оператором мереж цифрового телевізійного мовлення визначено ТОВ «Зеонбуд». Концерн РРТ забезпечив встановлення запланованої кількості цифрових телевізійних передавачів і антенно-фідерних систем на власних об’єктах та їх подальше обслуговування." />
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:paddingTop="@dimen/paragraph_padding_top"
+            android:text="На даний момент повноцінне цифрове мовлення ведеться на 121 об’єктах Концерну РРТ. Інфраструктура телебачення Волинської філії включає в себе 5 радіотелевізійних передавальних станцій. На кожній станції встановлено по 4 цифрові телевізійні передавачі потужністю від 100 Вт до 1000 Вт, які забезпечують трансляцію 32 програм у цифровому стандарті DVB-T2." />
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="Схема мережі"
+            android:paddingTop="@dimen/paragraph_padding_top"
+            android:src="@drawable/img_department_scheme" />
+
+    </LinearLayout>
+
+</ScrollView>

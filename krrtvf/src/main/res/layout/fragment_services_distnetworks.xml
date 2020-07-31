@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="@dimen/frame_padding_horizontal"
+    android:paddingRight="@dimen/frame_padding_horizontal"
+    android:scrollbars="none"
+    tools:context=".ServicesDistnetworksFragment">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/frame_padding_horizontal"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:justificationMode="inter_word"
+            android:text="Передача даних – це послуга, яка забезпечує зв'язок між двома визначеними місцями замовником, незалежно від відстані між ними."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/paragraph_padding_top"
+            android:justificationMode="inter_word"
+            android:text="Волинська філія Концерну РРТ пропонує послуги мережі передачі даних на базі власних радіорелейних ліній та волоконно-оптичних каналів провідних операторів України з якими побудовані стики нашим підприємством."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/paragraph_padding_top"
+            android:justificationMode="inter_word"
+            android:text="Мережа має кільцеву топологію. Висока якість каналів і гарантована смуга пропускання дозволяє, окрім надійного доступу до інтернету, передавати пакети IPTV, голосові і відео дані."/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/paragraph_padding_top"
+            android:justificationMode="inter_word"
+            android:text="Станом на сьогодні ми маємо можливість організувати канали зв’язку між населеними пунктами Волині, в яких розташовані наші об’єкти в найкоротші терміни."/>
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:adjustViewBounds="true"
+            android:contentDescription="Схема мережі"
+            android:paddingTop="@dimen/paragraph_padding_top"
+            android:src="@drawable/img_digital_tv_2017_2018" />
+
+    </LinearLayout>
+
+</ScrollView>
